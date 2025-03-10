@@ -1,0 +1,74 @@
+.App{
+  width: 1000px;
+}
+
+body {
+  background-color: RGB(64, 60, 229);
+}
+
+.logos img {
+  height: 60px;
+  padding: 20px;
+}
+
+.logos {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+h1 {
+  color: white;
+  padding: 20px 20px 0px 20px;
+  font-family: Poppins;
+  font-size: 4rem;
+  line-height: 3.5rem;
+}
+
+p {
+  color: white;
+  font-family: Roboto;
+  padding: 0px 20px 0px 20px;;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+#firstButton {
+  font-family: Roboto;
+  margin-bottom: 20px;
+  border-radius: 90px;
+  border: none;
+  padding: 10px 20px;
+}
+
+#secondButton {
+  font-family: Roboto;
+  border-radius: 90px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+}
+
+#peopleimg {
+  position: absolute;
+  /* top: 400px;
+  right: 1000px;
+  width: 50%;
+  max-height: 40vh;
+  object-fit: contain; */
+}
+
+.lastPicture {
+   display: flex;
+   justify-content: flex-end;
+   align-items: right;
+}
